@@ -1,5 +1,5 @@
 Welcome to my program of the game Territory. This was written with Python 3.13, older versions might not work.
-Don't change any folder or file names, or things WILL break
+Don't change any folder or file names, or the program will break
 
 To install the necessary libraries, run the following command: pip install -r requirements.txt
 
