@@ -19,7 +19,7 @@ SELECTED_COLOR = (0, 255, 0)
 GOLD = (255, 215, 0)
 RED = (255, 0, 0)
 REALGRAY = (96, 96, 96, 128)  # thats me!
-HOVER_COLOR = (150, 150, 150, 100)  # New hover color
+HOVER_COLOR = (150, 150, 150, 100) 
 
 # Pieces
 assets = "assets/"

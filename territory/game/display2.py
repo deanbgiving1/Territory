@@ -168,6 +168,11 @@ def draw_right_panel(screen, game, WIDTH, HEIGHT, RIGHT_PANEL_WIDTH,
             
         swap_colors_text = font.render("Swap Colors", True, BLACK)
         screen.blit(swap_colors_text, (WIDTH + 40, 240))
+
+        player1_color_text = font.render(f"Player 1: {game.player1_color}", True, BLACK)
+        player2_color_text = font.render(f"Player 2: {game.player2_color}", True, BLACK)
+        screen.blit(player1_color_text, (WIDTH + 20, 280))
+        screen.blit(player2_color_text, (WIDTH + 20, 310))
         
         return [play_again_button, swap_colors_button]
 
