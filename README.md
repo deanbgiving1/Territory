@@ -16,8 +16,8 @@ By default it will run 50 games, but you can change this by opening the .py file
 if __name__ == "__main__":
     train_q_learning_ai(episodes=50)   <-- change this number 
 
-After each game finishes, the game data is logged and the q table is updated. As the Q-table grows with more simulations, it may be more intensive on your computer. If you run too many simulations, the game could slow down or even crash. It’s recommended to limit the number of simulations when training the AI.
+After each game finishes, the game data is logged and the q table is updated. As the Q-table grows with more simulations, it may be more intensive on your computer. It’s recommended to limit the number of simulations when training the AI, as the q table file will grow with each new boardstate logged.
 
 UPDATE -- Added Improved UI for local games!
 
-Written by Dean Carpenter. drcarpenter234@gmail.com
+Created by Dean Carpenter. drcarpenter234@gmail.com
